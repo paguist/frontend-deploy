@@ -1,0 +1,23 @@
+/* Estilos específicos para el formulario de mascotas */
+.pet-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pet-form h1 {
+    margin-bottom: 20px;
+}
+
+.pet-form label {
+    margin-bottom: 5px;
+}
+
+.pet-form input, .pet-form textarea, .pet-form select {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,69 @@
+/* Estilo general del contenedor */
+.pet-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.pet-list-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.pet-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las celdas de la tabla */
+.pet-list th, .pet-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Encabezado de la tabla */
+.pet-list th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Fila de la tabla al pasar el ratón */
+.pet-list tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Botones para acciones */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action-buttons a, .action-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-buttons a:hover, .action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de error */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
